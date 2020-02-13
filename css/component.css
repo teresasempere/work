@@ -84,7 +84,7 @@
 
 .og-close:hover::before,
 .og-close:hover::after {
-	background: #333;
+	background: red;
 }
 
 .og-fullimg,

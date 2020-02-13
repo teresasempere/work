@@ -1,9 +1,13 @@
+body {
+  background-color: #f7f7f7;
+}
+
 .wrapper {
   padding: 0 15% 0 17%;
 }
 
 .og-grid {
-  margin: 10% 0 0 0;
+  margin: 5% 0 0 0;
   width: 100%;
   display: flex;
   align-items: center;
@@ -13,4 +17,59 @@
 
 .og-grid li {
   margin: 0 2% 15% 2%;
+}
+
+.og-grid li a img {
+  box-shadow: 0px 3px 9px rgba(0, 0, 0, 0.09);
+}
+
+.og-expander {
+  position: absolute;
+  background: white;
+  top: auto;
+  left: 0;
+  width: 100%;
+  margin-top: 10px;
+  text-align: left;
+  height: 0;
+  overflow: hidden;
+  background: #FFFFFF;
+  box-shadow: 0px 3px 9px rgba(0, 0, 0, 0.09);
+  z-index: 100;
+}
+
+.og-expander .og-expander-inner .og-fulling img {
+  box-shadow: 0px 3px 9px rgba(0, 0, 0, 0.09);
+}
+
+/* ------ HEADER ------*/
+header {
+  padding: 2% 3% 2% 3%;
+  width: 100%;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+}
+
+header .navbar {
+  width: 100%;
+  display: flex;
+  flex-direction: row nowrap;
+  justify-content: space-between;
+  align-content: center;
+}
+
+header .navbar .menu {
+  width: 12%;
+}
+
+header .navbar .menu ul {
+  list-style: none;
+  display: flex;
+  flex-direction: row nowrap;
+  justify-content: space-between;
+}
+
+header .navbar .menu ul li a:hover {
+  color: yellow;
 }
