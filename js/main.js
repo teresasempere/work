@@ -2,7 +2,7 @@ $(function () {
     $('.gif-img').hover(function () {
         // on mouse enter
         var $link = $(this).attr('src');
-        var customdata = $(this).parent().attr('href');
+        var customdata = $(this).parent().attr('data-gif');
 
         $(this).data("link", $link);
         $(this).attr('src', customdata);
